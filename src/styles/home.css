@@ -4,6 +4,13 @@ img{
 .content-btn{
     display: inline-block;
     width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid red;
+    border-radius: 50px;
+    overflow: hidden;
 }
 header{
     display: flex;
@@ -60,9 +67,11 @@ input{
 }
 .btn-left{
     transform: rotate(-95deg);
+    cursor: pointer;
 }
 .btn-right{
     transform: rotate(95deg);
+    cursor: pointer;
 }
 .content-films{
     display: flex;
